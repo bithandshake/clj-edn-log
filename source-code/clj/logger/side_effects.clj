@@ -15,6 +15,9 @@
 (defn write!
   ; @param (string) filename
   ; @param (*) content
+  ;
+  ; @usage
+  ;  (write! "my-log.log" "Gone fishing")
   [filename content]
   (let [filepath  (str config/LOG-PATH "/" filename)
         timestamp (time/timestamp-string)
