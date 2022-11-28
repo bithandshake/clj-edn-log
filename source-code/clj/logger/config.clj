@@ -5,7 +5,7 @@
 ;; ----------------------------------------------------------------------------
 
 ; @constant (string)
-(def LOG-PATH "environment/log")
+(def DEFAULT-LOG-FILEPATH "environment/log/default.log")
 
 ; @constant (integer)
 (def MAX-LINE-COUNT 500)
