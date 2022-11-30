@@ -15,7 +15,7 @@
   ; @usage
   ; (write! "my-log.log" "Gone fishing")
   ([content]
-   (write! DEFAULT-LOG-FILEPATH content))
+   (write! config/DEFAULT-LOG-FILEPATH content))
 
   ([filepath content]
    (let [timestamp (time/timestamp-string)

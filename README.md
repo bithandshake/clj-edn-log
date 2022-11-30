@@ -5,7 +5,7 @@
 
 ### Overview
 
-...
+The <strong>logger-api</strong> is a simple log file writer for Clojure projects.
 
 ### deps.edn
 
