@@ -1,10 +1,7 @@
 
 # <strong>logger.api</strong> namespace
-<p>Documentation of the <strong>logger/api.clj</strong> file</p>
 
-<strong>[README](../../../README.md) > [DOCUMENTATION](../../COVER.md) > logger.api</strong>
-
-
+<strong>[README](../../../README.md) > [DOCUMENTATION](../../COVER.md) > </strong>source-code/clj/logger/api.clj
 
 ### write!
 
@@ -25,7 +22,7 @@ Default: "environment/log/default.log"
 ```
 (defn write!
   ([content]
-   (write! DEFAULT-LOG-FILEPATH content))
+   (write! config/DEFAULT-LOG-FILEPATH content))
 
   ([filepath content]
    (let [timestamp (time/timestamp-string)
@@ -39,10 +36,10 @@ Default: "environment/log/default.log"
 <summary>Require</summary>
 
 ```
-(ns my-namespace (:require [logger.api :as logger :refer [write!]]))
+(ns my-namespace (:require [logger.api :refer [write!]]))
 
-(logger/write! ...)
-(write!        ...)
+(logger.api/write! ...)
+(write!            ...)
 ```
 
 </details>
