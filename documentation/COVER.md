@@ -1,11 +1,11 @@
 
 # <strong>logger-api</strong>
 
-<p>Documentation of the <strong>logger-api</strong> Clojure / ClojureScript library</p>
+<p>Documentation of the <strong>logger-api</strong> Clojure library</p>
 
 <strong>[README](../README.md) > DOCUMENTATION</strong>
 
-### Public namespaces
+### Clojure namespaces
 
 * [logger.api](clj/logger/API.md) [clj]
 
