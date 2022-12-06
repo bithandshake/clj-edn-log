@@ -8,4 +8,4 @@
 (def DEFAULT-LOG-FILEPATH "environment/log/default.log")
 
 ; @constant (integer)
-(def MAX-LINE-COUNT 500)
+(def DEFAULT-MAX-LINE-COUNT 500)
