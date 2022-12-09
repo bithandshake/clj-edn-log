@@ -1,6 +1,6 @@
 
 {:paths ["source-code/clj"]
  :deps  {bithandshake/io-api   {:git/url "https://github.com/bithandshake/io-api"
-                                :sha     "a6ad1e2fbe01f63388406eb70122bf8c7a16650e"}
+                                :sha     "bc6872d7dbbba44572b75a86008250c2a9c3623f"}
          bithandshake/time-api {:git/url "https://github.com/bithandshake/time-api"
-                                :sha     "2536131c627613321beb0da094a08ca2a7be21d3"}}}
+                                :sha     "935e04e8b20bf70793377ec6ac9ceb319bdfbf3c"}}}
