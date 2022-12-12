@@ -13,6 +13,9 @@
   ; @param (*) content
   ;
   ; @usage
+  ; (write! "Gone fishing")
+  ;
+  ; @usage
   ; (write! "my-log.log" "Gone fishing")
   ([content]
    (write! config/DEFAULT-LOG-FILEPATH content))
