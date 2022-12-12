@@ -17,6 +17,11 @@ Default: "environment/log/default.log"
 
 ```
 @usage
+(write! "Gone fishing")
+```
+
+```
+@usage
 (write! "my-log.log" "Gone fishing")
 ```
 
