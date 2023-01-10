@@ -1,8 +1,7 @@
 
-
 # logger-api documentation
 
-Documentation of the [logger-api](https://github.com/bithandshake-hq/logger-api) Clojure library
+Documentation of the [logger-api](https://github.com/bithandshake/logger-api) Clojure library
 
 ##### [README](../README.md) > DOCUMENTATION
 
