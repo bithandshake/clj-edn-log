@@ -1,28 +1,28 @@
 
-# logger-api
+# clj-logger
 
 ### Overview
 
-The <strong>logger-api</strong> is a simple log file writer for Clojure projects.
+The <strong>clj-logger</strong> is a simple log file writer for Clojure projects.
 
 ### deps.edn
 
 ```
-{:deps {bithandshake/logger-api {:git/url "https://github.com/bithandshake/logger-api"
+{:deps {bithandshake/clj-logger {:git/url "https://github.com/bithandshake/clj-logger"
                                  :sha     "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"}}
 ```
 
 ### Current version
 
-Check out the latest commit on the [release branch](https://github.com/bithandshake/logger-api/tree/release).
+Check out the latest commit on the [release branch](https://github.com/bithandshake/clj-logger/tree/release).
 
 ### Documentation
 
-The <strong>logger-api</strong> functional documentation is [available here](documentation/COVER.md).
+The <strong>clj-logger</strong> functional documentation is [available here](documentation/COVER.md).
 
 ### Changelog
 
-You can track the changes of the <strong>logger-api</strong> library [here](CHANGES.md).
+You can track the changes of the <strong>clj-logger</strong> library [here](CHANGES.md).
 
 ### Index
 
@@ -35,8 +35,8 @@ You can track the changes of the <strong>logger-api</strong> library [here](CHAN
 The [`logger.api/write!`](documentation/clj/logger/API.md) function writes into
 a log file.
 
-- If you don't pass the log file's path, the default log file will be used.
-  ('environment/log/default.log')
+- If you don't pass the log file's path, the default log file will be used:
+  `environment/log/default.log`
 
 ```
 (write! "Gone fishing")
@@ -45,3 +45,6 @@ a log file.
 ```
 (write! "my-log.log" "Gone fishing")
 ```
+
+The maximum line count of log files is 500 and when it reached, the writer uses
+FIFO to put the new content into a full up log file.
