@@ -1,7 +1,7 @@
 
-# logger-api documentation
+# clj-logger documentation
 
-Documentation of the [logger-api](https://github.com/bithandshake/logger-api) Clojure library
+Documentation of the [clj-logger](https://github.com/bithandshake/clj-logger) Clojure library
 
 ##### [README](../README.md) > DOCUMENTATION
 
