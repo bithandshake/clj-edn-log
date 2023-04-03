@@ -32,7 +32,7 @@ You can track the changes of the <strong>clj-logger</strong> library [here](CHAN
 
 ### How to write into a log file?
 
-The [`logger.api/write!`](documentation/clj/logger/API.md) function writes into
+The [`logger.api/write!`](documentation/clj/logger/API.md#write) function writes into
 a log file.
 
 - If you don't pass the log file's path, the default log file will be used:
