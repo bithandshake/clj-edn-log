@@ -22,5 +22,5 @@
 
   ([filepath content]
    (let [timestamp (time/timestamp-string)
-         output    (str timestamp " " content)]
+         output    (str timestamp" "content)]
         (io/prepend-to-file! filepath output {:create? true :max-line-count config/DEFAULT-MAX-LINE-COUNT}))))
