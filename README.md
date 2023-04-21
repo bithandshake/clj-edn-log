@@ -24,11 +24,11 @@ The <strong>clj-logger</strong> functional documentation is [available here](doc
 
 You can track the changes of the <strong>clj-logger</strong> library [here](CHANGES.md).
 
+# Usage
+
 ### Index
 
 - [How to write into a log file?](#how-to-write-into-a-log-file)
-
-# Usage
 
 ### How to write into a log file?
 
