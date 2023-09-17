@@ -1,9 +1,9 @@
 
-(ns logger.api
-    (:require [logger.side-effects :as side-effects]))
+(ns edn-log.api
+    (:require [edn-log.side-effects :as side-effects]))
 
 ;; ----------------------------------------------------------------------------
 ;; ----------------------------------------------------------------------------
 
-; logger.side-effects
+; edn-log.side-effects
 (def write! side-effects/write!)

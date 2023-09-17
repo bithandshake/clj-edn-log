@@ -1,28 +1,28 @@
 
-# clj-logger
+# clj-edn-log
 
 ### Overview
 
-The <strong>clj-logger</strong> is a simple log file writer for Clojure projects.
+The <strong>clj-edn-log</strong> is a simple log file writer for Clojure projects.
 
 ### deps.edn
 
 ```
-{:deps {bithandshake/clj-logger {:git/url "https://github.com/bithandshake/clj-logger"
-                                 :sha     "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"}}
+{:deps {bithandshake/clj-edn-log {:git/url "https://github.com/bithandshake/clj-edn-log"
+                                  :sha     "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"}}
 ```
 
 ### Current version
 
-Check out the latest commit on the [release branch](https://github.com/bithandshake/clj-logger/tree/release).
+Check out the latest commit on the [release branch](https://github.com/bithandshake/clj-edn-log/tree/release).
 
 ### Documentation
 
-The <strong>clj-logger</strong> functional documentation is [available here](documentation/COVER.md).
+The <strong>clj-edn-log</strong> functional documentation is [available here](documentation/COVER.md).
 
 ### Changelog
 
-You can track the changes of the <strong>clj-logger</strong> library [here](CHANGES.md).
+You can track the changes of the <strong>clj-edn-log</strong> library [here](CHANGES.md).
 
 # Usage
 
@@ -32,7 +32,7 @@ You can track the changes of the <strong>clj-logger</strong> library [here](CHAN
 
 ### How to write into a log file?
 
-The [`logger.api/write!`](documentation/clj/logger/API.md#write) function writes into
+The [`edn-log.api/write!`](documentation/clj/edn-log/API.md#write) function writes into
 a log file.
 
 - If you don't pass the log file's path, the default log file will be used:
