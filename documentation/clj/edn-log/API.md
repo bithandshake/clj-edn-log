@@ -1,11 +1,17 @@
 
-# edn-log.api Clojure namespace
+### edn-log.api
+
+Functional documentation of the edn-log.api Clojure namespace
+
+---
 
 ##### [README](../../../README.md) > [DOCUMENTATION](../../COVER.md) > edn-log.api
 
 ### Index
 
 - [write!](#write)
+
+---
 
 ### write!
 
@@ -55,5 +61,5 @@ Default: "environment/log/default.log"
 
 ---
 
-This documentation is generated with the [clj-docs-generator](https://github.com/bithandshake/clj-docs-generator) engine.
+<sub>This documentation is generated with the [clj-docs-generator](https://github.com/bithandshake/clj-docs-generator) engine.</sub>
 

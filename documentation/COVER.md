@@ -1,7 +1,11 @@
 
-# clj-edn-log documentation
+### clj-edn-log
 
-Documentation of the [clj-edn-log](https://github.com/bithandshake/clj-edn-log) Clojure library
+Functional documentation of the [clj-edn-log](https://github.com/bithandshake/clj-edn-log) Clojure library
+
+---
+
+
 
 ##### [README](../README.md) > DOCUMENTATION
 
@@ -11,5 +15,5 @@ Documentation of the [clj-edn-log](https://github.com/bithandshake/clj-edn-log) 
 
 ---
 
-This documentation is generated with the [clj-docs-generator](https://github.com/bithandshake/clj-docs-generator) engine.
+<sub>This documentation is generated with the [clj-docs-generator](https://github.com/bithandshake/clj-docs-generator) engine.</sub>
 
