@@ -26,6 +26,9 @@ You can track the changes of the <strong>clj-edn-log</strong> library [here](CHA
 
 # Usage
 
+> Some parameters of the following functions and some further functions are not discussed in this file.
+  To learn more about the available functionality, check out the [functional documentation](documentation/COVER.md)!
+
 ### Index
 
 - [How to write into a log file?](#how-to-write-into-a-log-file)
