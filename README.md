@@ -9,7 +9,7 @@ The <strong>clj-edn-log</strong> is a simple log file writer for Clojure project
 
 ```
 {:deps {bithandshake/clj-edn-log {:git/url "https://github.com/bithandshake/clj-edn-log"
-                                  :sha     "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"}}
+                                  :sha     "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"}}}
 ```
 
 ### Current version
