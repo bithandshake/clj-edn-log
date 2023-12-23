@@ -3,7 +3,7 @@
 
 ### Overview
 
-The <strong>clj-edn-log</strong> is a simple log file writer for Clojure projects.
+The <strong>clj-edn-log</strong> is a simple EDN log writer for Clojure projects.
 
 ### deps.edn
 
