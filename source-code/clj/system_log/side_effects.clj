@@ -12,7 +12,8 @@
   ; Automatically marks the given entry with the actual timestamp.
   ;
   ; @description
-  ; Prepends the given entry to a specific (or the default) log file.
+  ; - Prepends the given log entry to a specific (or the default) log file.
+  ; - Returns the content of the updated log file.
   ;
   ; @param (*) entry
   ; @param (map)(opt) options
@@ -24,12 +25,12 @@
   ; @usage
   ; (prepend-entry! "Gone fishing")
   ; =>
-  ; "2020-04-20T16:20:00.123Z Gone fishing\n..."
+  ; "2020-04-20T16:20:00.123Z\nGone fishing\n..."
   ;
   ; @usage
   ; (prepend-entry! "Gone fishing" {:filepath "my-log.log"})
   ; =>
-  ; "2020-04-20T16:20:00.123Z Gone fishing\n..."
+  ; "2020-04-20T16:20:00.123Z\nGone fishing\n..."
   ;
   ; @return (string)
   ([entry]
@@ -37,7 +38,7 @@
 
   ([entry {:keys [filepath max-lines] :or {filepath config/DEFAULT-LOG-FILEPATH max-lines config/DEFAULT-MAX-LINE-COUNT}}]
    (let [timestamp (time/timestamp-string)
-         output    (str timestamp" "entry)]
+         output    (str timestamp"\n"entry)]
         (io/prepend-to-file! filepath output {:create? true :max-line-count max-lines}))))
 
 (defn append-entry!
@@ -45,7 +46,8 @@
   ; Automatically marks the given entry with the actual timestamp.
   ;
   ; @description
-  ; Appends the given entry to a specific (or the default) log file.
+  ; - Appends the given log entry to a specific (or the default) log file.
+  ; - Returns the content of the updated log file.
   ;
   ; @param (*) entry
   ; @param (map)(opt) options
@@ -57,12 +59,12 @@
   ; @usage
   ; (append-entry! "Gone fishing")
   ; =>
-  ; "...\n2020-04-20T16:20:00.123Z Gone fishing"
+  ; "...\n2020-04-20T16:20:00.123Z\nGone fishing"
   ;
   ; @usage
   ; (append-entry! "Gone fishing" {:filepath "my-log.log"})
   ; =>
-  ; "...\n2020-04-20T16:20:00.123Z Gone fishing"
+  ; "...\n2020-04-20T16:20:00.123Z\nGone fishing"
   ;
   ; @return (string)
   ([entry]
@@ -70,5 +72,5 @@
 
   ([entry {:keys [filepath max-lines] :or {filepath config/DEFAULT-LOG-FILEPATH max-lines config/DEFAULT-MAX-LINE-COUNT}}]
    (let [timestamp (time/timestamp-string)
-         output    (str timestamp" "entry)]
+         output    (str timestamp"\n"entry)]
         (io/append-to-file! filepath output {:create? true :max-line-count max-lines}))))
