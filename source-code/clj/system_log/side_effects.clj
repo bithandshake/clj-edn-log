@@ -1,8 +1,8 @@
 
-(ns edn-log.side-effects
-    (:require [edn-log.config :as config]
-              [io.api         :as io]
-              [time.api       :as time]))
+(ns system-log.side-effects
+    (:require [system-log.config :as config]
+              [io.api :as io]
+              [time.api :as time]))
 
 ;; ----------------------------------------------------------------------------
 ;; ----------------------------------------------------------------------------
