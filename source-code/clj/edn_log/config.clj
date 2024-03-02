@@ -12,4 +12,4 @@
 ; @ignore
 ;
 ; @constant (integer)
-(def DEFAULT-MAX-LINE-COUNT 500)
+(def DEFAULT-MAX-LINE-COUNT 4096)

@@ -5,5 +5,6 @@
 ;; ----------------------------------------------------------------------------
 ;; ----------------------------------------------------------------------------
 
-; @redirect (edn-log.side-effects)
-(def write! side-effects/write!)
+; @redirect (edn-log.side-effects/*)
+(def prepend-entry! side-effects/prepend-entry!)
+(def append-entry!  side-effects/append-entry!)
