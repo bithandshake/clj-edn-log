@@ -1,8 +1,8 @@
 
 (ns system-log.side-effects
-    (:require [system-log.config :as config]
-              [io.api :as io]
-              [time.api :as time]))
+    (:require [io.api            :as io]
+              [system-log.config :as config]
+              [time.api          :as time]))
 
 ;; ----------------------------------------------------------------------------
 ;; ----------------------------------------------------------------------------
